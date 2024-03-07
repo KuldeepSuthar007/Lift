@@ -64,4 +64,5 @@ button {
   border: none;
   background: transparent;
   font-size: 60px;
+  cursor: pointer;
 }

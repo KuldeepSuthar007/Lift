@@ -10,7 +10,7 @@ function playSoundEffect() {
 
 function moveLift(floor) {
     const lift = document.querySelector('.lift');
-    lift.style.top = `${(2 - floor) * 200}px`; // Adjust position based on floor
+    lift.style.top = `${(2 - floor) * 200}px`;
 }
 function requestUp(floor) {
     if (currentFloor === 0 && floor === 1) {
